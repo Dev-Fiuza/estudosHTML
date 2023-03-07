@@ -1,48 +1,51 @@
-.principal {
-    background: #CCCCCC;
+
+/* paleta de cores
+
+.color1 { #fdefb0 };
+.color2 { #e7a8b1 };
+.color3 { #b998b3 };
+.color4 { #77779d };
+.color5 { #4771a3 };
+
+*/
+
+header{
+    background-color: #fdefb0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 90vw;
+    margin:0;
 }
 
-#banner {
-    width: 100%;
+.headerSymbol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1 {
-    text-align: center
+.headerItems{
+    display: flex;
+    align-items: center;
 }
 
-p {
-    text-align: center;
+.headerItems a {
+    margin-right: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+
+    background-color: #e7a8b1;
+    height: 80vh;
 
 }
 
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-
-.itens {
-    font-style: italic;
-}
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagemBeneficios{
-    width: 50%;
+footer {
+    background-color: #fdefb0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
