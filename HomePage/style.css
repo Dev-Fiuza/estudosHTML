@@ -9,6 +9,8 @@
 
 */
 
+/*Estilização de cabeçalho*/
+
 header{
     background-color: #fdefb0;
     display: flex;
@@ -36,6 +38,8 @@ header{
     text-decoration: none;
 }
 
+/*Estilização do Corpo da Página*/
+
 section {
 
     background-color: #e7a8b1;
@@ -43,6 +47,7 @@ section {
 
 }
 
+/* Estilização do Rodapé da Página*/
 footer {
     background-color: #fdefb0;
     display: flex;
